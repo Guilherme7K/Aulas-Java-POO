@@ -8,7 +8,7 @@ public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     Pensionato [] vect = new Pensionato[9];
 
-    System.out.println("Informe quantos alunos vão se hospedar: ");
+    System.out.println("How many rooms will be rentend?: ");
     int n = sc.nextInt();
     sc.nextLine();
     for(int i=0; i<n; i++){
