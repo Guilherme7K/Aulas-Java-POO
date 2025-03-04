@@ -6,7 +6,7 @@ public class TestePensionato {
 public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
-    Pensionato [] vect = new Pensionato[9];
+    Pensionato [] vect = new Pensionato[10];
 
     System.out.println("How many rooms will be rentend?: ");
     int n = sc.nextInt();
@@ -26,7 +26,7 @@ public static void main(String[] args) {
     System.out.println("Busy rooms:");
     for(int i=0; i<vect.length; i++){
         if(vect[i]!= null){
-            System.out.println(i + ": " + vect[i].toString());
+            System.out.println(i + ": " + vect[i]);
         }
     }
     sc.close();
