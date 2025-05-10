@@ -35,5 +35,7 @@ public class MatrixEx2 {
                 }
             }
         }
+
+        sc.close();
     }
 }
