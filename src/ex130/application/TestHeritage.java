@@ -34,5 +34,16 @@ public class TestHeritage {
             System.out.println("Update!");
         }
 
+        Account acc6 = new Account(1008, "Willquer", 1000.0);
+        acc6.withdraw(200.0);
+        System.out.println(acc6.getBalance());
+
+        Account acc7 = new SavingsAccount(1009, "Julio", 1000.0, 0.01);
+        acc7.withdraw(200.0);
+        System.out.println(acc7.getBalance());
+
+        Account acc8 = new BussinesAccount(1010, "Sophia", 1000.0, 500.0);
+        acc8.withdraw(200.0);
+        System.out.println(acc8.getBalance());
     }
 }

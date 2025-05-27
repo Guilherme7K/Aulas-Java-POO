@@ -27,4 +27,10 @@ public class BussinesAccount extends Account{
     }
 }
 
+@Override
+public void withdraw(double amount){
+    super.withdraw(amount);
+    balance -= 2.0;
+}
+
 }
