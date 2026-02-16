@@ -1,4 +1,4 @@
-package ex156.application;
+package ex156;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

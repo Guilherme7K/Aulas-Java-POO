@@ -1,4 +1,4 @@
-package ex158.application;
+package ex158;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
